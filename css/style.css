@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #f9f9f9;
+}
+.container{
+  width: 1060px;
+  height: 950px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.header img{
+  padding-top: 50px;
+  padding-left: 45px;
+}
+ul{
+   list-style-type: none;
+ }
+.menu{
+  height: 40px;
+  width: 966px;
+  background: #525151;
+  margin-top: 40px;
+  margin-left: 45px;
+  color: white;
+}
+.main{
+  display: inline-block;
+  width: 144px;
+}
+.goods{
+  display: inline-block;
+  width: 101px;
+  height: 40px;
+}
+.main:hover{
+  background: #343434;
+}
+.goods:hover{
+  background: #343434;
+}
+.about:hover{
+  background: #343434;
+}
+.contact:hover{
+  background: #343434;
+}
+.about{
+  display: inline-block;
+  width: 169px;
+  height: 40px;
+}
+.contact{
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+}
+.main, .goods, .about, .contact {
+  font: 14.67px "Myriad Pro", sans-serif;
+  text-align: center;
+  line-height: 40px;
+  text-shadow: 1px 0px 0px rgba(166, 166, 166, 1);
+}
+.leftmenu a, .footer a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  target: _blank;
+}
+.leftmenu {
+  width: 240px;
+  margin-top: 40px;
+  margin-left: 46px;
+  margin-right: 48px;
+  font: 13.33px "Myriad Pro", sans-serif;
+  border-top: 1px solid #ccc;
+}
+.leftmenu li{
+  display: block;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  text-align: left;
+  padding-left: 23px;
+  line-height: 40px;
+}
+.imgcontent p{
+  display: inline-block;
+}
+.leftmenu li:hover{
+  background: #f9f9f9;
+  padding-left: 35px;
+}
+
+.imgcontent{
+  width: 671px;
+  height: 400px;
+  border: 1px solid #ccc;
+  margin-top: 40px;
+}
+.leftmenu, .imgcontent{
+  display: inline-block;
+  vertical-align: top;
+}
+.imgcontent img{
+  padding: 44.5px 89px;
+}
+.imgcontent p{
+  padding: 40px 24px;
+  text-align: left;
+}
+
+.footer{
+  font: 13.33px "Myriad Pro", sans-serif;
+  margin-top: 240px;
+  margin-left: 46px;
+  width: 966px;
+  height: 40px;
+  background: #ccc;
+  float: left;
+}
+.footermain, .footergoods, .footerabout, .footercontacts{
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  width: 132px;
+}
+.copy{
+  display: inline-block;
+  float: right;
+  line-height: 40px;
+  margin-right: 38px;
+}
+.footer li:hover{
+  text-decoration: underline;
+}
